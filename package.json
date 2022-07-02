@@ -1,0 +1,17 @@
+{
+  "name": "discord-webhook-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "cd client && npm i && cd ..",
+    "install-server": "cd server && npm i && cd ..",
+    "install-dp": "npm run install-client && npm run install-server",
+    "start-client": "cd client && npm run dev && cd ..",
+    "start-server": "cd server && npm start && cd ..",
+    "start": "npm run install-dp && npm run start-client & npm run start-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
